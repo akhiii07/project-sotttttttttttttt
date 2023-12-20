@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+    background-image:  url(/FinalProject-main/img/train4K.jpg);;
+}
+/*------------ Login container ------------*/
+.box-area{
+    width: 930px;
+}
+
+/* Left Box */
+.left-box{
+    background-image: url(./signupBg.jpg) !important;
+    size: 100%;
+}
+
+/*------------ Right box ------------*/
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+    font-size: 16px;
+}
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+     .box-area{
+        margin: 0 10px;
+     }
+     .left-box{
+        height: 300px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+}
